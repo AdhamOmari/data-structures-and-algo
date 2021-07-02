@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+ regex-1
+<coverage generated="1625240790514" clover="3.2.0">
+  <project timestamp="1625240790514" name="All files">
  array-methods07
 <coverage generated="1625240270146" clover="3.2.0">
   <project timestamp="1625240270146" name="All files">
+ main
     <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
 
 <coverage generated="1624895163289" clover="3.2.0">
