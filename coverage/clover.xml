@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+ chaining
+<coverage generated="1625527766718" clover="3.2.0">
+  <project timestamp="1625527766718" name="All files">
+
 arrays-2d
 <coverage generated="1625330444369" clover="3.2.0">
   <project timestamp="1625330444369" name="All files">
@@ -7,6 +11,7 @@ map
 <coverage generated="1625245933576" clover="3.2.0">
   <project timestamp="1625245933576" name="All files">
  main
+main
     <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
 
  objects
