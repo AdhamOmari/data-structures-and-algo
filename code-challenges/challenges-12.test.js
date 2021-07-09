@@ -52,8 +52,8 @@ If it does, return true. If not, return false.
 
 const hasNumber = (string) => {
   // Solution code here...
-  const expressionPattern = /[a-zA-z]+[0-9]+/;
-  return expressionPattern.test(string);
+  const item = /[a-zA-z]+[0-9]+/; 
+   return item.test(string);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -73,8 +73,8 @@ Note: if you ever need to validate an email using a regex in practice, the Inter
 ------------------------------------------------------------------------------------------------ */
 
 const validateEmail = (email) => {
-  const emailPattern =/^\w+\.?\w+@\w+.(com|net|org)$/;
-  return emailPattern.test(email);};
+  const item =/^\w+\.?\w+@\w+.(com|net|org)$/;
+  return item.test(email);};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
