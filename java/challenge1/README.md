@@ -6,7 +6,7 @@
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![alt](../../reverseArray%20/code%20cha.png)
+![alt](../img%20/code01.png)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
