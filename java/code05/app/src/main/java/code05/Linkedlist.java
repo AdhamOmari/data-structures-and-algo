@@ -39,7 +39,29 @@ public String toadd(){
     return printList;
 }
 
+public String keq(int idx){
+    Node current = head;
+    int counter = 0;
+    while (current.next != null) {
+        current = current.next;
+        counter++;
+    }
 
+    if (idx > counter || idx < 0) {
+        return "Exception";
+    } else {
+        current = head;
+        for (int i = counter ; i >= counter-idx; i--) {
+            if (i == counter-idx) {
+                return "{"+current.value+"}";
+            }
+            current = current.next;
+        }
+    }
+    return "Exception";
+
+
+}
 
 public void append(int newData2){
 

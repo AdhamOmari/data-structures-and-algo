@@ -7,9 +7,14 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+
+    @Test void includes() {
+        Linkedlist list = new Linkedlist();
+        assertEquals(3,3);
+    }
+    @Test void s () {
+        Linkedlist list = new Linkedlist();
+        assertEquals(4,4);
     }
 
 }
