@@ -27,7 +27,9 @@ public class Linkedlist {
         String printList = "";
         Node current = head;
         while (current!= null) {
-            printList = printList + "{ " + current.value + " } -> ";
+            printList = "{"+current.value +"}"  +printList;
+
+
             if (current.next == null) {
                 printList = printList + "NULL";
                 return printList;
