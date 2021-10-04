@@ -12,12 +12,17 @@ public class App {
         Linkedlist list = new Linkedlist();
         list.insert(2);
         list.insert(2);
-        list.insert(5);
         list.insert(4);
         list.insert(7);
 
+//        list.insertAfter(2,8);
+//        list.insertBefore(2,9);
+//        list.append(5);
+        System.out.println(list.keq(0));
 
-        System.out.println(list.includes(2));
+
+
+//        System.out.println(list.includes(2));
         System.out.println(list.toString());
 
     }
