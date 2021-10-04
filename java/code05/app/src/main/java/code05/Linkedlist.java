@@ -22,10 +22,27 @@ public class Linkedlist {
         }
         return false;
     }
+public String toadd(){
+    String printList = "";
+    Node current = head;
+    int s=0;
+    while (current!= null) {
+        printList = "{"+current.value +"}"  +printList;
+
+
+        if (current.next == null) {
+            printList = printList + "NULL";
+            return printList;
+        }
+        current = current.next;
+    }
+    return printList;
+}
 
     public  String toString(){
         String printList = "";
         Node current = head;
+        int s=0;
         while (current!= null) {
             printList = "{"+current.value +"}"  +printList;
 
@@ -36,6 +53,10 @@ public class Linkedlist {
             }
             current = current.next;
         }
+        toadd();
         return printList;
+
     }
+
+
 }
