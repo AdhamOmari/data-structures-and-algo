@@ -39,6 +39,18 @@ public String toadd(){
     return printList;
 }
 
+
+
+public void append(int newData2){
+
+        Node newNode= new Node(newData2);
+        if (head.next != null){
+            newNode.next=head;
+        }
+        head=newNode;
+
+}
+
     public  String toString(){
         String printList = "";
         Node current = head;
@@ -57,6 +69,43 @@ public String toadd(){
         return printList;
 
     }
+
+
+    public void insertAfter(int valueNode, int newNodeValue) {
+        Node newNode = new Node(newNodeValue);
+        if (head.value == valueNode) {
+            insert(newNodeValue);
+        } else if (head == null) {
+            head = newNode;
+        } else {
+            Node current = head;
+            while (current.next != null) {
+                if (current.next.value == valueNode) {
+                    newNode.next = current.next;
+                    current.next = newNode;
+                    break;
+                }
+                current = current.next;
+            }
+        }
+    }
+    public void insertBefore(int valueNode, int newNodeValue) {
+        Node newInsertNode = new Node(newNodeValue);
+        if (head == null) {
+            head = newInsertNode;
+        } else {
+            Node current = head;
+            while (current != null) {
+                if (current.value == valueNode) {
+                    newInsertNode.next = current.next;
+                    current.next = newInsertNode;
+                }
+                current = current.next;
+            }
+        }
+
+    }
+
 
 
 }
