@@ -11,5 +11,26 @@ class AppTest {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
+    @Test
+    void testInseart() {
+        Linkedlist testInsert = new Linkedlist();
+        testInsert.insert(4);
+        testInsert.insert(6);
+        assertEquals("{4}{6}NULL",testInsert.toString() );
+    }
+    @Test
+    void testToString() {
+        Linkedlist testToString = new Linkedlist();
+        testToString.insert(4);
+        testToString.insert(6);
+        assertEquals("{4}{6}NULL", testToString.toString());
+    }
+
+    @Test void includesTest() {
+        Linkedlist includesTest = new Linkedlist();
+        includesTest.insert(10);
+        assertEquals( true , includesTest.includes(10) );
+
+    }
 
 }
