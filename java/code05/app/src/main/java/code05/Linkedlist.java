@@ -1,5 +1,7 @@
 package code05;
 
+import java.util.LinkedList;
+
 public class Linkedlist {
 
     Node head;
@@ -65,12 +67,16 @@ public String keq(int idx){
 
 public void append(int newData2){
 
-        Node newNode= new Node(newData2);
-        if (head.next != null){
-            newNode.next=head;
+    Node newNode = new Node(newData2);
+    if (head == null) {
+        head = newNode;
+    } else {
+        Node current = head;
+        while (current.next != null) {
+            current = current.next;
         }
-        head=newNode;
-
+        current.next = newNode;
+    }
 }
 
     public  String toString(){
@@ -128,6 +134,30 @@ public void append(int newData2){
 
     }
 
+    public Node zipLists(Linkedlist list1, Linkedlist list2) {
 
+        if (list1.head == null) {
+            return list2.head;
+        } else if (list2.head == null) {
+            return list1.head;
+        } else {
+            Node current1=list1.head;
+            Node current2=list2.head;
+            Node list1Next,list2Next;
+
+            while (current1 != null && current2 != null) {
+
+                list1Next=current1.next;
+                list2Next=current2.next;
+
+                current2.next=list1Next;
+                current1.next=current2;
+
+                current1=list1Next;
+                current2=list2Next;
+            }
+            return list1.head;
+        }
+    }
 
 }
