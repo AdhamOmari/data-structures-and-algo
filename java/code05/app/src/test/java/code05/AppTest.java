@@ -37,5 +37,33 @@ class AppTest {
         assertEquals( true , includesTest.includes(10) );
 
     }
+    @Test
+    void testAppend() {
+        Linkedlist list = new Linkedlist();
+        list.append(5);
+        String expected = "{5}NULL";
+        assertEquals(expected, list.toString());
+    }
 
+    @Test
+    void testinsertbefor() {
+        Linkedlist list = new Linkedlist();
+        list.append(1);
+        list.append(2);
+        list.append(3);
+        list.insertBefore(3, 40);
+        String expected = "{40}{3}{2}{1}NULL";
+        assertEquals(expected, list.toString());
+    }
+
+    @Test
+    void testinsertAfterr() {
+        Linkedlist list = new Linkedlist();
+        list.append(1);
+        list.append(2);
+        list.append(3);
+        list.insertAfter(1, 1000);
+        String expected = "{3}{2}{1}{1000}NULL";
+        assertEquals(expected, list.toString());
+    }
 }

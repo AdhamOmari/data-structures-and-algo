@@ -77,6 +77,10 @@ public void append(int newData2){
         }
         current.next = newNode;
     }
+
+
+
+
 }
 
     public  String toString(){
@@ -117,6 +121,7 @@ public void append(int newData2){
             }
         }
     }
+
     public void insertBefore(int valueNode, int newNodeValue) {
         Node newInsertNode = new Node(newNodeValue);
         if (head == null) {
