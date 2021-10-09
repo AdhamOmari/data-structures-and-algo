@@ -43,11 +43,16 @@ public String toadd(){
 
 public void append(int newData2){
 
-        Node newNode= new Node(newData2);
-        if (head.next != null){
-            newNode.next=head;
+    Node newNode = new Node(newData2);
+    if (head == null) {
+        head = newNode;
+    } else {
+        Node current = head;
+        while (current.next != null) {
+            current = current.next;
         }
-        head=newNode;
+        current.next = newNode;
+    }
 
 }
 
@@ -89,6 +94,7 @@ public void append(int newData2){
             }
         }
     }
+
     public void insertBefore(int valueNode, int newNodeValue) {
         Node newInsertNode = new Node(newNodeValue);
         if (head == null) {
