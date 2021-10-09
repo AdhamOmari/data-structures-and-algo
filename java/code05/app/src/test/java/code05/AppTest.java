@@ -42,5 +42,54 @@ class AppTest {
         assertEquals( result , newZip.toString());
     }
 
+    @Test
+    void testInseart() {
+        Linkedlist testInsert = new Linkedlist();
+        testInsert.insert(4);
+        testInsert.insert(6);
+        assertEquals("{4}{6}NULL",testInsert.toString() );
+    }
+    @Test
+    void testToString() {
+        Linkedlist testToString = new Linkedlist();
+        testToString.insert(4);
+        testToString.insert(6);
+        assertEquals("{4}{6}NULL", testToString.toString());
+    }
 
+    @Test void includesTest() {
+        Linkedlist includesTest = new Linkedlist();
+        includesTest.insert(10);
+        assertEquals( true , includesTest.includes(10) );
+
+    }
+    @Test
+    void testAppend() {
+        Linkedlist list = new Linkedlist();
+        list.append(5);
+        String expected = "{5}NULL";
+        assertEquals(expected, list.toString());
+    }
+
+    @Test
+    void testinsertbefor() {
+        Linkedlist list = new Linkedlist();
+        list.append(1);
+        list.append(2);
+        list.append(3);
+        list.insertBefore(3, 40);
+        String expected = "{40}{3}{2}{1}NULL";
+        assertEquals(expected, list.toString());
+    }
+
+    @Test
+    void testinsertAfterr() {
+        Linkedlist list = new Linkedlist();
+        list.append(1);
+        list.append(2);
+        list.append(3);
+        list.insertAfter(1, 1000);
+        String expected = "{3}{2}{1}{1000}NULL";
+        assertEquals(expected, list.toString());
+    }
 }
