@@ -12,17 +12,23 @@ public class App {
         list.append(1);
         list.append(2);
         list.append(3);
-        list.append(4);
+
 
         Linkedlist list3 = new Linkedlist();
         list3.append(5);
         list3.append(6);
-        System.out.println(list3);
-        System.out.println(list);
+        list3.append(4);
 
-        Linkedlist list4 = new Linkedlist();
-        list4.head = list3.zipLists(list, list3);
-        System.out.println(list4.toString());
+
+        Linkedlist listRevers = new Linkedlist();
+        listRevers.insert(1);
+        listRevers.insert(3);
+        listRevers.insert(4);
+
+
+
+
+        System.out.println(listRevers.reverseList(listRevers));
 
     }
 }

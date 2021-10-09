@@ -16,6 +16,32 @@ class AppTest {
         Linkedlist list = new Linkedlist();
         assertEquals(4,4);
     }
+    @Test void zipBothEmpty () {
+        Linkedlist testList1 = new Linkedlist();
+        Linkedlist testList2 = new Linkedlist();
+
+        Linkedlist newZippedList = new Linkedlist();
+        newZippedList.head = testList1.zipLists(testList1,testList2);
+
+        assertEquals( null , newZippedList.head);
+    }
+    @Test void zip () {
+        Linkedlist testList1 = new Linkedlist();
+        testList1.append(1);
+        testList1.append(2);
+        testList1.append(3);
+        Linkedlist testList2 = new Linkedlist();
+        testList2.append(7);
+        testList2.append(8);
+        testList2.append(9);
+
+        Linkedlist newZip = new Linkedlist();
+        newZip.head = testList1.zipLists(testList1,testList2);
+        String result = "{1}{7}{2}{8}{3}{9}NULL";
+
+        assertEquals( result , newZip.toString());
+    }
+
     @Test
     void testInseart() {
         Linkedlist testInsert = new Linkedlist();

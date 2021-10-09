@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df7276d-e292-4e3e-8b8b-41f9c4ad5e25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/java/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/code05/app/src/main/java/code05/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/code05/app/src/main/java/code05/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/code05/app/src/main/java/code05/Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/code05/app/src/main/java/code05/Linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/code05/app/src/test/java/code05/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/code05/app/src/test/java/code05/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +31,14 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\data-structures-and-algo\java" />
       <recent name="\\wsl$\Ubuntu\home\adhamomari\401\data-structures-and-algo\java\CodeChallenge" />
     </key>
   </component>
