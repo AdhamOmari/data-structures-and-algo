@@ -1,6 +1,6 @@
 package Stake;
 
-public class Stack {
+public class Stack{
 
     private Node top;
     private Node head;
@@ -41,4 +41,11 @@ public class Stack {
         return top == null;
     }
 
+    public Node getTop() {
+        return top;
+    }
+
+    public void setTop(Node top) {
+        this.top = top;
+    }
 }

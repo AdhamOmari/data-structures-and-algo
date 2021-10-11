@@ -1,8 +1,8 @@
 package Stake;
 
 
-public class Queue {
-    public Node front;
+public class Queue<T> {
+    public Node  front;
     public Node rear;
 
     public Queue() {

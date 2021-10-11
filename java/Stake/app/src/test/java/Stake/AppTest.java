@@ -56,7 +56,7 @@ class AppTest {
         assertEquals(res,stack.peek());
     }
     @Test void testenqueueOnevalue() {
-        Queue queue=new Queue();
+        Queue<C> queue=new Queue<C>();
         queue.enqueue("a");
         String front="a";
         assertEquals(false,queue.isEmpty());
@@ -64,7 +64,7 @@ class AppTest {
 
     }
     @Test void testenqueueMultiplevalue() {
-        Queue queue=new Queue();
+        Queue<C> queue=new Queue<C>();
         queue.enqueue("a");
         queue.enqueue("b");
         queue.enqueue("c");
@@ -77,7 +77,7 @@ class AppTest {
 
 
     @Test void testpeekQueue() {
-        Queue queue=new Queue();
+        Queue<C> queue=new Queue<C>();
         queue.enqueue("A");
         queue.enqueue("B");
         queue.enqueue("C");

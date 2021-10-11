@@ -16,7 +16,14 @@ public class App {
         System.out.println(new App().getGreeting());
 //        stackDemo();
 //        queueDemo();
-        pesudoqueueDemo();
+//        pesudoqueueDemo();
+
+
+
+        AnimalSelter bothList = new AnimalSelter();
+
+        System.out.println(bothList.catList.toString());
+
     }
 
 //    private static void stackDemo() {
@@ -60,17 +67,17 @@ public class App {
 //
 //
 //    }
-    private static void pesudoqueueDemo(){
-        Pseudo b=new Pseudo();
-        b.enqueue("A");
-        b.enqueue("L");
-        b.enqueue("I");
+//    private static void pesudoqueueDemo(){
+//        Pseudo b=new Pseudo();
+//        b.enqueue("A");
+//        b.enqueue("L");
+//        b.enqueue("I");
+//
+//        b.enqueue("L");
+//        System.out.println(b.dequeue().toString());
+//        System.out.println(b.toString());
 
-        b.enqueue("L");
-        System.out.println(b.dequeue().toString());
-        System.out.println(b.toString());
 
 
 
-    }
 }
