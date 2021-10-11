@@ -91,4 +91,18 @@ class AppTest {
         assertEquals(true,stack.isEmpty());
 
     }
+    @Test void stackQueuePseudo() {
+        Pseudo test = new Pseudo();
+
+
+        test.enqueue("A");
+        test.enqueue("B");
+
+
+        assertEquals("A", test.dequeue());
+
+
+
+
+    }
 }
