@@ -19,7 +19,7 @@ public class App {
 //        pesudoqueueDemo();
 
 
-        AnimalSelter animalShelter =new AnimalSelter();
+        AnimalSelter animalShelter = new AnimalSelter();
         animalShelter.enqueue("Cat");
         animalShelter.enqueue("dog");
         animalShelter.enqueue("Cat");
@@ -30,10 +30,17 @@ public class App {
 
         System.out.println(animalShelter.peek());
         System.out.println(animalShelter.peek());
-    }
 
 
     }
+
+    public static boolean validatebrackets(String s) {
+        Stack<String> stack = new Stack<String>();
+        if (stack.isEmpty()) return true;
+
+    }
+
+}
 
 //    private static void stackDemo() {
 //        Stack stack = new Stack();
