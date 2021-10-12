@@ -7,13 +7,15 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
+    @Test
+    void appHasAGreeting() {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
 
-    @Test void pushStack(){
-        Stack stack= new Stack();
+    @Test
+    void pushStack() {
+        Stack stack = new Stack();
         stack.push("A");
         assertEquals(
                 "A",
@@ -21,6 +23,7 @@ class AppTest {
                 stack.toString()
         );
     }
+
     @Test
     public void testPushMultipleValueStack() {
         Stack stack = new Stack();
@@ -36,6 +39,7 @@ class AppTest {
                 stack.toString()
         );
     }
+
     @Test
     void testPopStack() {
         Stack stack = new Stack();
@@ -46,52 +50,28 @@ class AppTest {
         stack.pop();
         stack.pop();
         stack.pop();
-        assertEquals(true,stack.isEmpty());
+        assertEquals(true, stack.isEmpty());
     }
-    @Test void testpeekStack() {
-        Stack stack=new Stack();
+
+    @Test
+    void testpeekStack() {
+        Stack stack = new Stack();
         stack.push("A");
         stack.push("B");
-        String res="B";
-        assertEquals(res,stack.peek());
-    }
-    @Test void testenqueueOnevalue() {
-        Queue queue=new Queue();
-        queue.enqueue("a");
-        String front="a";
-        assertEquals(false,queue.isEmpty());
-        assertEquals(front,queue.front.data);
-
-    }
-    @Test void testenqueueMultiplevalue() {
-        Queue queue=new Queue();
-        queue.enqueue("a");
-        queue.enqueue("b");
-        queue.enqueue("c");
-        String resfront="a";
-        String resrear="c";
-        assertEquals(false,queue.isEmpty());
-        assertEquals(resfront,queue.front.data);
-        assertEquals(resrear,queue.rear.data);
+        String res = "B";
+        assertEquals(res, stack.peek());
     }
 
 
-    @Test void testpeekQueue() {
-        Queue queue=new Queue();
-        queue.enqueue("A");
-        queue.enqueue("B");
-        queue.enqueue("C");
-        queue.dequeue();
-        String res="B";
-        assertEquals(res,queue.peek());
-    }
     @Test
     public void testIsEmptyStack() {
         Stack stack = new Stack();
-        assertEquals(true,stack.isEmpty());
+        assertEquals(true, stack.isEmpty());
 
     }
-    @Test void stackQueuePseudo() {
+
+    @Test
+    void stackQueuePseudo() {
         Pseudo test = new Pseudo();
 
 
@@ -102,7 +82,16 @@ class AppTest {
         assertEquals("A", test.dequeue());
 
 
+    }
 
+    @Test
+    void animal() {
+        AnimalSelter animalShelter = new AnimalSelter();
+        animalShelter.enqueue("Cat");
+        animalShelter.enqueue("dog");
+        animalShelter.enqueue("Cat");
+        animalShelter.enqueue("Dog");
+        assertEquals("Cat", animalShelter.dequeue("Dog"));
 
     }
 }

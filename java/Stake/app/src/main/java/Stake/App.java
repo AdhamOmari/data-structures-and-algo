@@ -16,7 +16,23 @@ public class App {
         System.out.println(new App().getGreeting());
 //        stackDemo();
 //        queueDemo();
-        pesudoqueueDemo();
+//        pesudoqueueDemo();
+
+
+        AnimalSelter animalShelter =new AnimalSelter();
+        animalShelter.enqueue("Cat");
+        animalShelter.enqueue("dog");
+        animalShelter.enqueue("Cat");
+        animalShelter.enqueue("Dog");
+        System.out.println(animalShelter.dequeue("cat"));
+        System.out.println(animalShelter.dequeue("cat"));
+        System.out.println(animalShelter.dequeue("Dog"));
+
+        System.out.println(animalShelter.peek());
+        System.out.println(animalShelter.peek());
+    }
+
+
     }
 
 //    private static void stackDemo() {
@@ -60,17 +76,17 @@ public class App {
 //
 //
 //    }
-    private static void pesudoqueueDemo(){
-        Pseudo b=new Pseudo();
-        b.enqueue("A");
-        b.enqueue("L");
-        b.enqueue("I");
+//    private static void pesudoqueueDemo(){
+//        Pseudo b=new Pseudo();
+//        b.enqueue("A");
+//        b.enqueue("L");
+//        b.enqueue("I");
+//
+//        b.enqueue("L");
+//        System.out.println(b.dequeue().toString());
+//        System.out.println(b.toString());
 
-        b.enqueue("L");
-        System.out.println(b.dequeue().toString());
-        System.out.println(b.toString());
 
 
 
-    }
-}
+

@@ -37,3 +37,11 @@ Using a Linked List as the underlying data storage mechanism, implement both a S
 * peek Arguments: none Returns: Value of the node located at the front of the queue Should raise exception when called on empty stack
 
 * is empty Arguments: none Returns: Boolean indicating whether or not the queue is empty
+
+
+
+
+
+
+
+>  
