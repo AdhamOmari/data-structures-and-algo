@@ -1,11 +1,14 @@
 package Stake;
 
 public class Animal {
-   private String animaltyoe="";
+    public String data;
 
 
-    public Animal(String name) {
-            this.animaltyoe = name;
-        }
+    Animal(String data) {
+        this.data = data;
+    }
 
+    public String toString() {
+        return data;
+    }
 }

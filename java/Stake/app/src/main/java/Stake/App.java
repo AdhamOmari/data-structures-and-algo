@@ -19,10 +19,19 @@ public class App {
 //        pesudoqueueDemo();
 
 
+        AnimalSelter animalShelter =new AnimalSelter();
+        animalShelter.enqueue("Cat");
+        animalShelter.enqueue("dog");
+        animalShelter.enqueue("Cat");
+        animalShelter.enqueue("Dog");
+        System.out.println(animalShelter.dequeue("cat"));
+        System.out.println(animalShelter.dequeue("cat"));
+        System.out.println(animalShelter.dequeue("Dog"));
 
-        AnimalSelter bothList = new AnimalSelter();
+        System.out.println(animalShelter.peek());
+        System.out.println(animalShelter.peek());
+    }
 
-        System.out.println(bothList.catList.toString());
 
     }
 
@@ -80,4 +89,4 @@ public class App {
 
 
 
-}
+
