@@ -10,8 +10,8 @@ public class AnimalSelter {
         this.rear = null;
     }
 
-    public void enqueue(Object value) {
-        AnimalNode newNode = new AnimalNode(value);
+    public void enqueue(Object data) {
+        AnimalNode newNode = new AnimalNode(data);
         if (front == null) {
             front = newNode;
             rear = newNode;
@@ -21,13 +21,13 @@ public class AnimalSelter {
         }
     }
 
-    public Object dequeue(String animalType) {
-        if ( animalType .isEmpty()) {
+    public Object dequeue(String Type) {
+        if ( Type .isEmpty()) {
             return "Queue is empty";
         } else {
-            animalType = (String) front.getData();
+            Type = (String) front.getData();
             front = front.getNext();
-            return animalType;
+            return Type;
         }
     }
 
