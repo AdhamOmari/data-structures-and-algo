@@ -3,22 +3,36 @@
  */
 package code05;
 
+import java.util.LinkedList;
+
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) {
         Linkedlist list = new Linkedlist();
-        list.insert(2);
-        list.insert(2);
-        list.insert(5);
-        list.insert(4);
-        list.insert(7);
+        list.append(1);
+        list.append(2);
+        list.append(3);
+
+
+        Linkedlist list3 = new Linkedlist();
+        list3.append(5);
+        list3.append(6);
+        list3.append(4);
+
+
+        Linkedlist listRevers = new Linkedlist();
+        listRevers.insert(1);
+        listRevers.insert(3);
+        listRevers.insert(4);
+
+
 
 
 //        System.out.println(list.includes(2));
         System.out.println(list.toString());
+
+        System.out.println(listRevers.reverseList(listRevers));
+
 
     }
 }
