@@ -17,7 +17,7 @@ public class App {
         list.insert(7);
 
 
-        System.out.println(list.includes(2));
+//        System.out.println(list.includes(2));
         System.out.println(list.toString());
 
     }

@@ -5,31 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78d888c1-1472-4566-adb4-f346701a8ab0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/test/java/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../code05/app/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../code05/app/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../code05/app/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../code05/app/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../code05/app/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/trees/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/trees/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code05/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../code05/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code05/app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../code05/app/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code05/app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../code05/app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code05/app/src/main/java/code05/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code05/app/src/main/java/code05/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code05/app/src/main/java/code05/Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code05/app/src/main/java/code05/Linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code05/app/src/test/java/code05/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code05/app/src/test/java/code05/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/songr" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -118,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

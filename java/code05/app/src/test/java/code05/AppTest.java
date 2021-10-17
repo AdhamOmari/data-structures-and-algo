@@ -7,30 +7,37 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
-    }
-    @Test
-    void testInseart() {
-        Linkedlist testInsert = new Linkedlist();
-        testInsert.insert(4);
-        testInsert.insert(6);
-        assertEquals("{4}{6}NULL",testInsert.toString() );
-    }
-    @Test
-    void testToString() {
-        Linkedlist testToString = new Linkedlist();
-        testToString.insert(4);
-        testToString.insert(6);
-        assertEquals("{4}{6}NULL", testToString.toString());
-    }
+//    @Test void appHasAGreeting() {
+//        App classUnderTest = new App();
+//        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+//    }
+//    @Test
+//    void testInseart() {
+//        Linkedlist testInsert = new Linkedlist();
+//        testInsert.insert(4);
+//        testInsert.insert(6);
+//        assertEquals("{4}{6}NULL",testInsert.toString() );
+//    }
+//    @Test
+//    void testToString() {
+//        Linkedlist testToString = new Linkedlist();
+//        testToString.insert(4);
+//        testToString.insert(6);
+//        assertEquals("{4}{6}NULL", testToString.toString());
+//    }
 
-    @Test void includesTest() {
-        Linkedlist includesTest = new Linkedlist();
-        includesTest.insert(10);
-        assertEquals( true , includesTest.includes(10) );
-
+    @Test void k1test () {
+        Linkedlist k1test = new Linkedlist();
+        k1test.append(1);
+        k1test.append(2);
+        k1test.append(3);
+        assertEquals( "Exception" , k1test.kthFromEnd(3) ,"err");
     }
-
+    @Test void K2test () {
+        Linkedlist K2test = new Linkedlist();
+        K2test.append(1);
+        K2test.append(2);
+        K2test.append(3);
+        assertEquals( "{3}" , K2test.kthFromEnd(2),"pass" );
+    }
 }
