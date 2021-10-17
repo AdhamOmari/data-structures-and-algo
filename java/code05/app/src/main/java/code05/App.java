@@ -28,7 +28,11 @@ public class App {
 
 
 
+//        System.out.println(list.includes(2));
+        System.out.println(list.toString());
+
         System.out.println(listRevers.reverseList(listRevers));
+
 
     }
 }
