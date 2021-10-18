@@ -7,7 +7,7 @@ public class BinaryTree<T extends  Comparable<T>>extends BinarySearchTree {
 
     public void preorderTraversal() {
         if (isEmpty()) {
-            return;
+            return ;
         }
         preOrder(getRoot());
     }
@@ -52,7 +52,6 @@ public class BinaryTree<T extends  Comparable<T>>extends BinarySearchTree {
             traverseInorder(root.getRightChild());
         }
     }
-
 
 
 

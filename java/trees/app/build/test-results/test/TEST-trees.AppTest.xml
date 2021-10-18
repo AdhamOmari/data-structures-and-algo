@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-18T13:14:31" hostname="DESKTOP-GRI4TMA" time="0.04">
+<testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-18T18:00:36" hostname="DESKTOP-GRI4TMA" time="0.031">
   <properties/>
-  <testcase name="test13()" classname="trees.AppTest" time="0.04"/>
+  <testcase name="testmax2()" classname="trees.AppTest" time="0.031"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
