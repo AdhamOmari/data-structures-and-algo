@@ -3,6 +3,9 @@
  */
 package trees;
 
+import trees.implemant.BinarySearchTree;
+import trees.implemant.BinaryTree;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
@@ -11,7 +14,7 @@ public class App {
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
 
-            BinarySearchTree<Integer> binarySearchTree=new BinarySearchTree<>();
+            BinaryTree<Integer> binarySearchTree=new BinaryTree<>();
             binarySearchTree.insert(5);
             binarySearchTree.insert(7);
             binarySearchTree.insert(6);
@@ -20,8 +23,7 @@ public class App {
             binarySearchTree.insert(8);
 
             System.out.println("Inorder");
-            binarySearchTree.inorderTraversal();
-
+        binarySearchTree.preorderTraversal();
             System.out.println("\n----------Preorder ----------");
             binarySearchTree.preorderTraversal();
             System.out.println("\n---------- Postorder ---------");

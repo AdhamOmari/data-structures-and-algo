@@ -1,4 +1,4 @@
-package trees;
+package trees.implemant.node;
 
 public class Node<T> {
     public T value;
