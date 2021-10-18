@@ -1,6 +1,6 @@
 package Stake;
 
-public class Stack{
+public class Stack <T>{
 
     private Node top;
     private Node head;
