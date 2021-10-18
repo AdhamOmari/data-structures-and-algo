@@ -3,8 +3,9 @@
  */
 package trees;
 
-import trees.implemant.BinarySearchTree;
+
 import trees.implemant.BinaryTree;
+import trees.implemant.node.Node;
 
 public class App {
     public String getGreeting() {
@@ -14,23 +15,17 @@ public class App {
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
 
-            BinaryTree<Integer> binarySearchTree=new BinaryTree<>();
-            binarySearchTree.insert(5);
-            binarySearchTree.insert(7);
-            binarySearchTree.insert(6);
-            binarySearchTree.insert(10);
-            binarySearchTree.insert(2);
-            binarySearchTree.insert(8);
+        Node<Integer> node4 = new Node(1);
+        Node<Integer> node5 = new Node(2);
+        Node<Integer> node6 = new Node(11);
+        Node<Integer> node7 = new Node(3, node6, node6);
+        Node<Integer> node2 = new Node(9, node4, node5);
+        Node<Integer> node3 = new Node(3, node6, null);
 
-//            System.out.println("Inorder");
-//        binarySearchTree.preorderTraversal();
-//            System.out.println("\n----------Preorder ----------");
-//            binarySearchTree.preorderTraversal();
-//            System.out.println("\n---------- Postorder ---------");
-//            binarySearchTree.postorderTraversal();
-//            System.out.println("\n");
-//            System.out.println(binarySearchTree.contains(10));
-        System.out.println(binarySearchTree.findMaxValue());
+        Node<Integer> root = new Node(4, node2, node3);
+        BinaryTree binaryTree = new BinaryTree();
+
+        System.out.println(binaryTree.breadthFirst(root));
 
     }
 

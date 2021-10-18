@@ -1,7 +1,9 @@
 package trees.implemant.node;
 
+
 public class Node<T> {
     public T value;
+    public Node<T> next;
     public Node<T> leftChild;
     public Node<T> rightChild;
 
@@ -38,4 +40,8 @@ public class Node<T> {
     public void setRightChild(Node rightChild) {
         this.rightChild = rightChild;
     }
+    public Node<T> getNext() {
+        return next;
+    }
+
 }
