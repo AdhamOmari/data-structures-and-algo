@@ -4,11 +4,39 @@
 package trees;
 
 import org.junit.jupiter.api.Test;
+import trees.implemant.BinarySearchTree;
+import trees.implemant.BinaryTree;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
     @Test void appHasAGreeting() {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+
     }
+    @Test void test1() {
+        BinaryTree<Integer> binarySearchTree=new BinaryTree<>();
+        binarySearchTree.insert(5);
+        binarySearchTree.insert(7);
+        binarySearchTree.insert(6);
+        binarySearchTree.insert(10);
+        binarySearchTree.insert(2);
+        binarySearchTree.insert(8);
+        assertEquals(true,binarySearchTree.contains(10), "app should have a greeting");
+        assertEquals(false,binarySearchTree.isEmpty(), "app should have a greeting");
+
+    }
+    @Test void test13() {
+        BinaryTree<Integer> binarySearchTree=new BinaryTree<>();
+        binarySearchTree.insert(5);
+        binarySearchTree.insert(7);
+        binarySearchTree.insert(6);
+        binarySearchTree.insert(10);
+        binarySearchTree.insert(2);
+        binarySearchTree.insert(8);
+        assertEquals(false,binarySearchTree.isEmpty(), "app should have a greeting");
+
+    }
+
 }
