@@ -71,6 +71,10 @@ public class BinarySearchTree  <T extends Comparable<T>> {
     }
 
 
+    public Integer findbreadthFirstTree() {
+
+        return maxValue(root);
+    }
 
 
     private boolean isEmpty() {
