@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="78d888c1-1472-4566-adb4-f346701a8ab0" name="Changes" comment="" />
     <list default="true" id="78d888c1-1472-4566-adb4-f346701a8ab0" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/trees/implemant/BinarySearchTree.java" afterDir="false" />
@@ -51,6 +52,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
