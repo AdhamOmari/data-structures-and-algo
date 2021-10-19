@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df7276d-e292-4e3e-8b8b-41f9c4ad5e25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/java/code05/app/src/main/java/code05/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/code05/app/src/main/java/code05/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/code05/app/src/main/java/code05/Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/code05/app/src/main/java/code05/Linkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/code05/app/src/test/java/code05/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/code05/app/src/test/java/code05/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/CC17/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/trees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +23,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1yjfOWkjnNdvAN2pPRc5Oa3v886" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -78,5 +82,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
