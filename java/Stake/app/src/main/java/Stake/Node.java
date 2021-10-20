@@ -9,6 +9,10 @@ public class Node {
         this.data = data;
     }
 
+    public Node(char data) {
+
+    }
+
     public String getData() {
         return data;
     }

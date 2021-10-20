@@ -33,14 +33,14 @@ public class App {
 
 
     }
-
-    public static boolean validatebrackets(String s) {
-        Stack<String> stack = new Stack<String>();
-        if (stack.isEmpty()) return true;
-
-    }
-
 }
+//    public static boolean validatebrackets(String s) {
+//        Stack<String> stack = new Stack<String>();
+//        if (stack.isEmpty()) return true;
+//
+//    }
+//
+//}
 
 //    private static void stackDemo() {
 //        Stack stack = new Stack();
