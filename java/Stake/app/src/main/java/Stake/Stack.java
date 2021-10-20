@@ -8,7 +8,7 @@ public class Stack <T>{
     public Stack() {
     }
 
-    public void push(String data) {
+    public void push(char data) {
         if (isEmpty()) {
             Node node = new Node(data);
             top = node;
