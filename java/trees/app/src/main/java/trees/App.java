@@ -3,36 +3,61 @@
  */
 package trees;
 
-import trees.implemant.BinarySearchTree;
-import trees.implemant.BinaryTree;
+
+import com.sun.source.tree.BinaryTree;
+
+import trees.implemant.node.Node;
+import trees.implemant.node.Queue;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import static trees.implemant.BinarySearchTree.treeFizzBuzz;
 
 public class App {
     public String getGreeting() {
         return "Hello World!";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println(new App().getGreeting());
 
-            BinaryTree<Integer> binarySearchTree=new BinaryTree<>();
-            binarySearchTree.insert(5);
-            binarySearchTree.insert(7);
-            binarySearchTree.insert(6);
-            binarySearchTree.insert(10);
-            binarySearchTree.insert(2);
-            binarySearchTree.insert(8);
 
-//            System.out.println("Inorder");
-//        binarySearchTree.preorderTraversal();
-//            System.out.println("\n----------Preorder ----------");
-//            binarySearchTree.preorderTraversal();
-//            System.out.println("\n---------- Postorder ---------");
-//            binarySearchTree.postorderTraversal();
-//            System.out.println("\n");
-//            System.out.println(binarySearchTree.contains(10));
-        System.out.println(binarySearchTree.findMaxValue());
+//        Node<Integer> node4 = new Node(1);
+//        Node<Integer> node5 = new Node(2);
+//        Node<Integer> node6 = new Node(11);
+//        Node<Integer> node7 = new Node(3, node6, node6);
+//        Node<Integer> node2 = new Node(9, node4, node5);
+//        Node<Integer> node3 = new Node(3, node6, null);
+//
+//        Node<Integer> root = new Node(4, node2, node3);
+//
+//
 
+//        System.out.println(binaryTree.getSumOdd(root));
+//        binaryTree.findMaxValue();
+//        binaryTree.insert(1);
+//        binaryTree.insert(2);
+//        binaryTree.insert(30);
+//        binaryTree.insert(4);
+//        System.out.println(binaryTree.breadthFirst(binaryTree));
+
+
+        Node<Integer> root = new Node<Integer>(0);
+        root.child.add(new Node(2));
+        root.child.add(new Node(3));
+        root.child.add(new Node(5));
+        root.child.get(0).child.add(new Node(12));
+        root.child.get(0).child.add(new Node(22));
+        root.child.get(0).child.add(new Node(15));
+        System.out.println(treeFizzBuzz(root));
     }
 
     }
+
+
+
+
 

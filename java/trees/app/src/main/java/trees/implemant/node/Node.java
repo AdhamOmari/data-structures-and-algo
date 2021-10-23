@@ -1,9 +1,15 @@
 package trees.implemant.node;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Node<T> {
     public T value;
+    public Node<T> next;
     public Node<T> leftChild;
     public Node<T> rightChild;
+    public List<Node> child = new ArrayList<>();
 
     public Node(T value, Node leftChild, Node rightChild) {
         this.value = value;
@@ -38,4 +44,8 @@ public class Node<T> {
     public void setRightChild(Node rightChild) {
         this.rightChild = rightChild;
     }
+    public Node<T> getNext() {
+        return next;
+    }
+
 }

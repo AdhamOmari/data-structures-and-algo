@@ -19,28 +19,31 @@ public class App {
 //        pesudoqueueDemo();
 
 
-        AnimalSelter animalShelter = new AnimalSelter();
-        animalShelter.enqueue("Cat");
-        animalShelter.enqueue("dog");
-        animalShelter.enqueue("Cat");
-        animalShelter.enqueue("Dog");
-        System.out.println(animalShelter.dequeue("cat"));
-        System.out.println(animalShelter.dequeue("cat"));
-        System.out.println(animalShelter.dequeue("Dog"));
+//        AnimalSelter animalShelter = new AnimalSelter();
+//        animalShelter.enqueue("Cat");
+//        animalShelter.enqueue("dog");
+//        animalShelter.enqueue("Cat");
+//        animalShelter.enqueue("Dog");
+//        System.out.println(animalShelter.dequeue("cat"));
+//        System.out.println(animalShelter.dequeue("cat"));
+//        System.out.println(animalShelter.dequeue("Dog"));
+//
+//        System.out.println(animalShelter.peek());
+//        System.out.println(animalShelter.peek());
 
-        System.out.println(animalShelter.peek());
-        System.out.println(animalShelter.peek());
+StackBracket stackBracket =new StackBracket();
+         System.out.println(stackBracket.validatebrackets("{()}"));
 
-
-    }
-
-    public static boolean validatebrackets(String s) {
-        Stack<String> stack = new Stack<String>();
-        if (stack.isEmpty()) return true;
 
     }
-
 }
+//    public static boolean validatebrackets(String s) {
+//        Stack<String> stack = new Stack<String>();
+//        if (stack.isEmpty()) return true;
+//
+//    }
+//
+//}
 
 //    private static void stackDemo() {
 //        Stack stack = new Stack();
