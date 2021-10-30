@@ -67,9 +67,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/app/src/main/java/trees/implemant/BinaryTree.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/src/main/java/trees/implemant/BinarySearchTree.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/src/main/java/trees/App.java" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/app/src/main/java/trees/App.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/java/trees/implemant/BinaryTree.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/java/trees/implemant/BinarySearchTree.java" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
     <setting file="file://$PROJECT_DIR$/app/src/test/java/trees/AppTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zbc1wL3GRdO1FaHz39YXGFGU44" />
@@ -87,11 +93,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/songr" />
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -104,6 +114,7 @@
       <recent name="trees" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Gradle.AppTest.testFizzBuzz">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trees.App" />
@@ -119,6 +130,10 @@
       </method>
     </configuration>
     <configuration name="AppTest.testFizzBuzz" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+=======
+  <component name="RunManager" selected="Gradle.AppTest.testmax3">
+    <configuration name="AppTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -202,13 +217,42 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="AppTest.testmax3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;trees.AppTest.testmax3&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Gradle.AppTest.testFizzBuzz" />
         <item itemvalue="Application.App" />
         <item itemvalue="Gradle.AppTest.testmax3" />
         <item itemvalue="Gradle.AppTest.testmax2" />
         <item itemvalue="Gradle.AppTest.testmax" />
+=======
+        <item itemvalue="Gradle.AppTest.testmax3" />
+        <item itemvalue="Gradle.AppTest.testmax2" />
+        <item itemvalue="Gradle.AppTest.testmax" />
+        <item itemvalue="Gradle.AppTest.test13" />
+        <item itemvalue="Gradle.AppTest.test1" />
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
       </list>
     </recent_temporary>
   </component>

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5fa8a35-0f2f-486d-825c-25d30047abfe" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/../../.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.gradle/7.2/dependencies-accessors/gc.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
@@ -83,6 +84,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/trees/implemant/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/implemant/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trees/implemant/node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/implemant/node/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/trees/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trees/AppTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/trees.iml" filepath="$PROJECT_DIR$/.idea/trees.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/trees.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/trees.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/trees.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/trees.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/trees.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/trees.app.test.iml" />
+=======
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
     </modules>
   </component>
 </project>

@@ -4,6 +4,7 @@
 package trees;
 
 
+<<<<<<< HEAD
 import com.sun.source.tree.BinaryTree;
 
 import trees.implemant.node.KTree;
@@ -16,6 +17,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+=======
+import trees.implemant.BinaryTree;
+import trees.implemant.node.Node;
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
 
 public class App {
     public String getGreeting() {
@@ -25,6 +30,20 @@ public class App {
     public static void main(String[] args) throws IOException {
         System.out.println(new App().getGreeting());
 
+<<<<<<< HEAD
+=======
+        Node<Integer> node4 = new Node(1);
+        Node<Integer> node5 = new Node(2);
+        Node<Integer> node6 = new Node(11);
+        Node<Integer> node7 = new Node(3, node6, node6);
+        Node<Integer> node2 = new Node(9, node4, node5);
+        Node<Integer> node3 = new Node(3, node6, null);
+
+        Node<Integer> root = new Node(4, node2, node3);
+        BinaryTree binaryTree = new BinaryTree();
+
+        System.out.println(binaryTree.breadthFirst(root));
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
 
 //        Node<Integer> node4 = new Node(1);
 //        Node<Integer> node5 = new Node(2);

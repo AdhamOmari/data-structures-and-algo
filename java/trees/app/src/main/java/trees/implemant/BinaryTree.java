@@ -4,7 +4,10 @@ import trees.implemant.node.Node;
 import trees.implemant.node.Queue;
 
 import java.util.ArrayList;
+<<<<<<< HEAD
 import java.util.List;
+=======
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
 
 public class BinaryTree<T extends  Comparable<T>>extends BinarySearchTree {
 
