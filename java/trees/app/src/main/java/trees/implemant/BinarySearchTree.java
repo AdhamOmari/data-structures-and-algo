@@ -104,27 +104,7 @@ public class BinarySearchTree  <T extends Comparable<T>> {
         }
         return sum;
     }
-    public static List treeFizzBuzz(Node<Integer> treeRoot) {
-        List<String> newList = new ArrayList<>();
-        if (treeRoot.value == null) return newList;
-        Queue myQueue = new Queue();
-        myQueue.enqueue(treeRoot);
-        while (!myQueue.isEmpty()) {
-            Node <Integer> test = myQueue.dequeue();
-            for (int i = 0; i < test.child.size(); i++)
-                myQueue.enqueue(test.child.get(i));
-            if (test.value % 3 == 0 && test.value % 5 == 0) {
-                newList.add("FizzBuzz");
-            } else if (test.value % 3 == 0) {
-                newList.add("Fizz");
-            } else if (test.value % 5 == 0) {
-                newList.add("Buzz");
-            } else {
-                newList.add("\"" + test.value + "\"");
-            }
-        }
-        return newList;
-    }
+
 
         @Override
     public String toString() {

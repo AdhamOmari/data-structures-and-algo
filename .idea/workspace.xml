@@ -2,68 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df7276d-e292-4e3e-8b8b-41f9c4ad5e25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/.gradle/7.2/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/.gradle/7.2/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/.gradle/7.2/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/CC17/CC17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/CC17/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/Stake/.idea/Stake.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/Stake/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__com_google_guava_guava_30_1_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__org_checkerframework_checker_qual_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/modules/app/trees.app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/modules/app/trees.app.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/.idea/modules/app/trees.app.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/app/.idea/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/app/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/app/build/classes/java/main/trees/implemant/BinarySearchTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/app/build/classes/java/main/trees/implemant/BinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/app/build/classes/java/main/trees/implemant/node/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/app/build/classes/java/main/trees/implemant/node/Queue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/app/build/classes/java/test/trees/BinaryTreeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/implemant/node/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Stake/app/out/production/classes/Stake/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/Stake/app/out/production/classes/Stake/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Stake/app/out/production/classes/Stake/Pseudo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Stake/app/out/production/classes/Stake/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Stake/app/out/production/classes/Stake/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Stake/app/src/main/java/Stake/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Stake/app/src/main/java/Stake/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Stake/app/src/main/java/Stake/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Stake/app/src/main/java/Stake/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Stake/app/src/main/java/Stake/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Stake/app/src/main/java/Stake/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/implemant/node/KTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/implemant/node/NodeK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/trees/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/trees/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/trees/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/trees/.idea/trees.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.idea/trees.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/trees/app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/trees/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/app/build/classes/java/main/trees/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/build/classes/java/main/trees/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/trees/app/build/classes/java/main/trees/implemant/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/build/classes/java/main/trees/implemant/BinarySearchTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/app/build/classes/java/test/trees/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/build/classes/java/test/trees/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/app/build/reports/tests/test/classes/trees.AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/build/reports/tests/test/classes/trees.AppTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/app/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/build/reports/tests/test/index.html" afterDir="false" />
@@ -76,8 +26,6 @@
       <change beforePath="$PROJECT_DIR$/java/trees/app/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/implemant/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/implemant/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/implemant/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/implemant/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/implemant/node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/src/main/java/trees/implemant/node/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/trees/app/src/test/java/trees/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/trees/app/src/test/java/trees/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +56,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

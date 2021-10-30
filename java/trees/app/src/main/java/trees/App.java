@@ -6,7 +6,9 @@ package trees;
 
 import com.sun.source.tree.BinaryTree;
 
+import trees.implemant.node.KTree;
 import trees.implemant.node.Node;
+import trees.implemant.node.NodeK;
 import trees.implemant.node.Queue;
 
 import java.io.File;
@@ -14,7 +16,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static trees.implemant.BinarySearchTree.treeFizzBuzz;
 
 public class App {
     public String getGreeting() {
@@ -45,14 +46,21 @@ public class App {
 //        System.out.println(binaryTree.breadthFirst(binaryTree));
 
 
-        Node<Integer> root = new Node<Integer>(0);
-        root.child.add(new Node(2));
-        root.child.add(new Node(3));
-        root.child.add(new Node(5));
-        root.child.get(0).child.add(new Node(12));
-        root.child.get(0).child.add(new Node(22));
-        root.child.get(0).child.add(new Node(15));
-        System.out.println(treeFizzBuzz(root));
+        KTree ktree = new KTree();
+        NodeK root = new NodeK("1");
+        NodeK node1 = new NodeK("40");
+        NodeK node2 = new NodeK("88");
+        NodeK node3 = new NodeK("33");
+        NodeK node4 = new NodeK("7");
+        NodeK node6 = new NodeK("6");
+
+        ktree.root = root;
+        root.children.add(node1);
+        root.children.add(node2);
+        node1.children.add(node3);
+        node2.children.add(node4);
+        node2.children.add(node6);
+        System.out.println(ktree.fizzBuzz(root));
     }
 
     }
