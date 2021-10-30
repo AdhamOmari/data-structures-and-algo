@@ -4,7 +4,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c70046-c140-436d-8fe5-b83ccfeb1f59" name="Changes" comment="" />
+    <list default="true" id="91c70046-c140-436d-8fe5-b83ccfeb1f59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/7.2/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/7.2/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/7.2/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC17/CC17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC17/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Stake/StackBracket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__com_google_guava_guava_30_1_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__org_checkerframework_checker_qual_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/modules/app/trees.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/modules/app/trees.app.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/.idea/modules/app/trees.app.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/app/.idea/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/app/build/classes/java/main/trees/implemant/BinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/app/build/classes/java/main/trees/implemant/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/app/build/classes/java/main/trees/implemant/node/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/app/build/classes/java/main/trees/implemant/node/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/app/build/classes/java/test/trees/BinaryTreeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trees/app/src/main/java/trees/implemant/node/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/Stake/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/Stake/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/Stake/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/Stake/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/Stake/Pseudo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/Stake/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/Stake/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/test/classes/Stake/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/test/classes/Stake/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Stake/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Stake/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Stake/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Stake/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/Stake/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/Stake/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/trees.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.idea/trees.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/classes/java/main/trees/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/classes/java/main/trees/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/classes/java/test/trees/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/classes/java/test/trees/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/reports/tests/test/classes/trees.AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/reports/tests/test/classes/trees.AppTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/reports/tests/test/packages/trees.html" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/reports/tests/test/packages/trees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/test-results/test/TEST-trees.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/test-results/test/TEST-trees.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/src/main/java/trees/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/src/main/java/trees/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/src/main/java/trees/implemant/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/src/main/java/trees/implemant/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/src/main/java/trees/implemant/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/src/main/java/trees/implemant/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/src/main/java/trees/implemant/node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/src/main/java/trees/implemant/node/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/app/src/test/java/trees/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/app/src/test/java/trees/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,9 +126,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/songr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CC13" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.animal">
+  <component name="RunManager" selected="JUnit.AppTest.testFalse">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stake.App" />
       <module name="Stake.app.main" />
@@ -73,10 +158,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.test241" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stake.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Stake" />
+      <option name="MAIN_CLASS_NAME" value="Stake.AppTest" />
+      <option name="METHOD_NAME" value="test241" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stake.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Stake" />
+      <option name="MAIN_CLASS_NAME" value="Stake.AppTest" />
+      <option name="METHOD_NAME" value="testFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.animal" />
+        <item itemvalue="JUnit.AppTest.testFalse" />
+        <item itemvalue="JUnit.AppTest.test241" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest.animal" />
       </list>
     </recent_temporary>
   </component>

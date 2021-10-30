@@ -94,4 +94,15 @@ class AppTest {
         assertEquals("Cat", animalShelter.dequeue("Dog"));
 
     }
+    @Test
+    public void testtrue() {
+        StackBracket stackBracket =new StackBracket();
+        assertEquals(true,stackBracket.validatebrackets("{{{}}}"));
+    }
+    @Test
+    public void testFalse() {
+        StackBracket stackBracket =new StackBracket();
+        assertEquals(false,stackBracket.validatebrackets("{{"));
+    }
+
 }

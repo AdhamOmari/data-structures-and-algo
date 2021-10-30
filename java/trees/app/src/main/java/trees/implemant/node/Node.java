@@ -1,11 +1,18 @@
 package trees.implemant.node;
 
 
+<<<<<<< HEAD
+import java.util.ArrayList;
+import java.util.List;
+
+=======
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
 public class Node<T> {
     public T value;
     public Node<T> next;
     public Node<T> leftChild;
     public Node<T> rightChild;
+    public List<Node> child = new ArrayList<>();
 
     public Node(T value, Node leftChild, Node rightChild) {
         this.value = value;

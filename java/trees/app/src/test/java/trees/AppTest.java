@@ -6,7 +6,13 @@ package trees;
 import org.junit.jupiter.api.Test;
 import trees.implemant.BinarySearchTree;
 import trees.implemant.BinaryTree;
+<<<<<<< HEAD
+import trees.implemant.node.KTree;
 import trees.implemant.node.Node;
+import trees.implemant.node.NodeK;
+=======
+import trees.implemant.node.Node;
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -76,4 +82,23 @@ class AppTest {
         BinaryTree binaryTree = new BinaryTree();
         assertEquals("[10, 9, 12, 7, 8, 11]", binaryTree.breadthFirst(root).toString());
     }
+<<<<<<< HEAD
+
+    @Test
+    void testFizzBuzz(){
+
+        KTree ktree = new KTree();
+        NodeK root = new NodeK("24");
+        NodeK node1 = new NodeK("990");
+        NodeK node2 = new NodeK("20");
+
+
+        ktree.root = root;
+        root.children.add(node1);
+        root.children.add(node2);
+
+        assertEquals("Fizz FizzBuzz Buzz ",ktree.fizzBuzz(root));
+    }
+=======
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
 }

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-30T23:01:20" hostname="DESKTOP-GRI4TMA" time="0.033">
+  <properties/>
+  <testcase name="testFizzBuzz()" classname="trees.AppTest" time="0.033"/>
+=======
 <testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-18T19:28:11" hostname="DESKTOP-GRI4TMA" time="0.098">
   <properties/>
   <testcase name="testmax3()" classname="trees.AppTest" time="0.098"/>
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[java.lang.Exception: Empty Queue
 	at trees.implemant.node.Queue.peek(Queue.java:36)

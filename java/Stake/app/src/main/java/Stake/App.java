@@ -19,19 +19,25 @@ public class App {
 //        pesudoqueueDemo();
 
 
-        AnimalSelter animalShelter = new AnimalSelter();
-        animalShelter.enqueue("Cat");
-        animalShelter.enqueue("dog");
-        animalShelter.enqueue("Cat");
-        animalShelter.enqueue("Dog");
-        System.out.println(animalShelter.dequeue("cat"));
-        System.out.println(animalShelter.dequeue("cat"));
-        System.out.println(animalShelter.dequeue("Dog"));
+//        AnimalSelter animalShelter = new AnimalSelter();
+//        animalShelter.enqueue("Cat");
+//        animalShelter.enqueue("dog");
+//        animalShelter.enqueue("Cat");
+//        animalShelter.enqueue("Dog");
+//        System.out.println(animalShelter.dequeue("cat"));
+//        System.out.println(animalShelter.dequeue("cat"));
+//        System.out.println(animalShelter.dequeue("Dog"));
+//
+//        System.out.println(animalShelter.peek());
+//        System.out.println(animalShelter.peek());
 
-        System.out.println(animalShelter.peek());
-        System.out.println(animalShelter.peek());
+<<<<<<< HEAD
+StackBracket stackBracket =new StackBracket();
+         System.out.println(stackBracket.validatebrackets("{()}"));
 
 
+=======
+>>>>>>> 8511a8a9411e5635f117b75ca67217fe179d8f70
     }
 }
 //    public static boolean validatebrackets(String s) {
