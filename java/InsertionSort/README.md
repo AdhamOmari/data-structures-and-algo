@@ -16,4 +16,4 @@ The basic operation of this algorithm is comparison. This will happen n * (n-1) 
 Space: O(1)
 No additional space is being created. This array is being sorted in place…keeping the space at constant O(1).
 
-[Blog]()
+[Blog](https://github.com/AdhamOmari/data-structures-and-algo/blob/InsertionSort/java/InsertionSort/Blog.md)
