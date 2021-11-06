@@ -15,3 +15,5 @@ create method that take array of integers using Quick sort algorithm
 big O
 time => O(n log(n))
 space=>O(n)
+
+[blog](./Blog.md)
