@@ -3,6 +3,7 @@ package HashTable;
 import org.checkerframework.checker.units.qual.K;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Objects;
 
 public class HashTable  <K, V>{
@@ -103,5 +104,15 @@ public class HashTable  <K, V>{
             current = current.next;
         }
         return false;
+    }
+    public static  String repeatedWord(String string){
+        String token[]=string.split(" ");
+        HashSet<String> hashSetString =new HashSet<String>();
+        for (int i = 0; i <token.length ; i++) {
+            if (hashSetString.contains(token[i].toUpperCase())){
+                return token[i];
+            }
+            hashSetString.add(token[i].toUpperCase());
+        }return "there is no repetition";
     }
 }
