@@ -22,4 +22,9 @@ class AppTest {
 
 
     }
+    @Test void repeatedWordTest() {
+        HashTable testrepeatWord= new HashTable();
+
+        assertEquals( "was", HashTable.repeatedWord("Once was upon a time,was there was a brave princess who"));
+    }
 }
