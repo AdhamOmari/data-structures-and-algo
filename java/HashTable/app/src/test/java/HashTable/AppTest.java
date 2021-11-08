@@ -4,6 +4,11 @@
 package HashTable;
 
 import org.junit.jupiter.api.Test;
+import treeIntersection.BinaryTree;
+import treeIntersection.Tree;
+import treeIntersection.TreeNode;
+
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
@@ -26,5 +31,24 @@ class AppTest {
         HashTable testrepeatWord= new HashTable();
 
         assertEquals( "was", HashTable.repeatedWord("Once was upon a time,was there was a brave princess who"));
+    }
+    @Test void treeintersection(){
+        BinaryTree<Integer> firstBinaryTree = new BinaryTree<>(new TreeNode<>(5));
+        TreeNode<Integer> node1 = new TreeNode<>(4);
+        TreeNode<Integer> node2 = new TreeNode<>(2);
+        TreeNode<Integer> node3 = new TreeNode<>(6, node1, null);
+        TreeNode<Integer> node5 = new TreeNode<>(4);
+        firstBinaryTree.root.right = node5;
+        firstBinaryTree.root.left = node3;
+
+        BinaryTree<Integer> secondBinaryTree = new BinaryTree<>(new TreeNode<>(45));
+        TreeNode<Integer> node6 = new TreeNode<>(4);
+        TreeNode<Integer> node7 = new TreeNode<>(2);
+        TreeNode<Integer> node8 = new TreeNode<>(1, node6, null);
+        TreeNode<Integer> node9 = new TreeNode<>(9);
+        secondBinaryTree.root.right = node9;
+        secondBinaryTree.root.left = node8;
+        assertEquals("[4]", Tree.treeIntersection(firstBinaryTree, secondBinaryTree).toString());
+
     }
 }
