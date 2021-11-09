@@ -7,50 +7,66 @@ import treeIntersection.BinaryTree;
 import treeIntersection.Tree;
 import treeIntersection.TreeNode;
 
+import java.util.HashMap;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-
-//        HashTable<Object, Object> hashtable = new HashTable<>();
-//        hashtable.add("Naim", 1000);
-//        hashtable.add("Qusai", 1500);
-//        hashtable.add("Deyaa", 10000);
-//        hashtable.add("John", 300);
-//        hashtable.add("ammar", 400);
-//        hashtable.add("Toms", 200);
-//        hashtable.add("Jade", 100);
-//        hashtable.add("Doa", 6000);
-//        hashtable.add("Farah", 800);
-//        hashtable.add("Jason", 90000);
-//        hashtable.add("adham", 700);
+//        System.out.println(new App().getGreeting());
 //
+////        HashTable<Object, Object> hashtable = new HashTable<>();
+////        hashtable.add("Naim", 1000);
+////        hashtable.add("Qusai", 1500);
+////        hashtable.add("Deyaa", 10000);
+////        hashtable.add("John", 300);
+////        hashtable.add("ammar", 400);
+////        hashtable.add("Toms", 200);
+////        hashtable.add("Jade", 100);
+////        hashtable.add("Doa", 6000);
+////        hashtable.add("Farah", 800);
+////        hashtable.add("Jason", 90000);
+////        hashtable.add("adham", 700);
+////
+////
+////        System.out.println("The Integer is => " + hashtable.get("ammar"));
+////        System.out.println("The index is => " + hashtable.hash("Toms"));
+////        System.out.println("Is contain ? => " + hashtable.contains("ali"));
+////        System.out.println("Is contain ? => " + hashtable.contains("Jason"));
+////        System.out.println(HashTable.repeatedWord("Once upon a time, there was a brave princess who..."));
+//        BinaryTree<Integer> firstBinaryTree = new BinaryTree<>(new TreeNode<>(5));
+//        TreeNode<Integer> node1 = new TreeNode<>(4);
+//        TreeNode<Integer> node2 = new TreeNode<>(2);
+//        TreeNode<Integer> node3 = new TreeNode<>(6, node1, null);
+//        TreeNode<Integer> node5 = new TreeNode<>(4);
+//        firstBinaryTree.root.right = node5;
+//        firstBinaryTree.root.left = node3;
 //
-//        System.out.println("The Integer is => " + hashtable.get("ammar"));
-//        System.out.println("The index is => " + hashtable.hash("Toms"));
-//        System.out.println("Is contain ? => " + hashtable.contains("ali"));
-//        System.out.println("Is contain ? => " + hashtable.contains("Jason"));
-//        System.out.println(HashTable.repeatedWord("Once upon a time, there was a brave princess who..."));
-        BinaryTree<Integer> firstBinaryTree = new BinaryTree<>(new TreeNode<>(5));
-        TreeNode<Integer> node1 = new TreeNode<>(4);
-        TreeNode<Integer> node2 = new TreeNode<>(2);
-        TreeNode<Integer> node3 = new TreeNode<>(6, node1, null);
-        TreeNode<Integer> node5 = new TreeNode<>(4);
-        firstBinaryTree.root.right = node5;
-        firstBinaryTree.root.left = node3;
+//        BinaryTree<Integer> secondBinaryTree = new BinaryTree<>(new TreeNode<>(45));
+//        TreeNode<Integer> node6 = new TreeNode<>(4);
+//        TreeNode<Integer> node7 = new TreeNode<>(2);
+//        TreeNode<Integer> node8 = new TreeNode<>(1, node6, null);
+//        TreeNode<Integer> node9 = new TreeNode<>(9);
+//        secondBinaryTree.root.right = node9;
+//        secondBinaryTree.root.left = node8;
+//
+//        System.out.println(Tree.treeIntersection(firstBinaryTree, secondBinaryTree));
+        HashMap<String, String> h1 = new HashMap<>();
+        h1.put("ford", "enamored");
+        h1.put("wrath", "anger");
+        h1.put("diligent", "employed");
+        h1.put("outfit", "garb");
 
-        BinaryTree<Integer> secondBinaryTree = new BinaryTree<>(new TreeNode<>(45));
-        TreeNode<Integer> node6 = new TreeNode<>(4);
-        TreeNode<Integer> node7 = new TreeNode<>(2);
-        TreeNode<Integer> node8 = new TreeNode<>(1, node6, null);
-        TreeNode<Integer> node9 = new TreeNode<>(9);
-        secondBinaryTree.root.right = node9;
-        secondBinaryTree.root.left = node8;
 
-        System.out.println(Tree.treeIntersection(firstBinaryTree, secondBinaryTree));
+        HashMap<String, String> h2 = new HashMap<>();
+        h2.put("fond", "averse");
+        h2.put("wrath", "delight");
+        h2.put("diligent", "idle");
+        h2.put("guide", "follow");
 
+        HashMap<String, String[]> h3 = new HashMap<>();
+        h3 = LeftJoin.leftJoin(h1, h2);
     }
 }
