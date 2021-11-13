@@ -8,6 +8,7 @@ import treeIntersection.Tree;
 import treeIntersection.TreeNode;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class App {
     public String getGreeting() {
@@ -53,20 +54,77 @@ public class App {
 //        secondBinaryTree.root.left = node8;
 //
 //        System.out.println(Tree.treeIntersection(firstBinaryTree, secondBinaryTree));
-        HashMap<String, String> h1 = new HashMap<>();
-        h1.put("ford", "enamored");
-        h1.put("wrath", "anger");
-        h1.put("diligent", "employed");
-        h1.put("outfit", "garb");
-
-
-        HashMap<String, String> h2 = new HashMap<>();
-        h2.put("fond", "averse");
-        h2.put("wrath", "delight");
-        h2.put("diligent", "idle");
-        h2.put("guide", "follow");
-
-        HashMap<String, String[]> h3 = new HashMap<>();
-        h3 = LeftJoin.leftJoin(h1, h2);
+//        HashMap<String, String> h1 = new HashMap<>();
+//        h1.put("ford", "enamored");
+//        h1.put("wrath", "anger");
+//        h1.put("diligent", "employed");
+//        h1.put("outfit", "garb");
+//
+//
+//        HashMap<String, String> h2 = new HashMap<>();
+//        h2.put("fond", "averse");
+//        h2.put("wrath", "delight");
+//        h2.put("diligent", "idle");
+//        h2.put("guide", "follow");
+//
+//        HashMap<String, String[]> h3 = new HashMap<>();
+//        h3 = LeftJoin.leftJoin(h1, h2);
+        String word = "adham adham world world world";
+        System.out.println(checkUniqueUsingMap("a" ));
+        FrequentWord(word);
     }
-}
+
+    private static boolean checkUniqueUsingMap(String str) {
+        char[] s_a = str.toCharArray();
+        int i = 0;
+        int size = s_a.length;
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        while (i != size) {
+            if (!map.containsKey(s_a[i])) {
+                map.put(s_a[i], 1);
+            } else {
+                return false;
+            }
+            i++;
+        }
+        return true;
+    }
+
+
+    public static void FrequentWord(String string)
+    {
+        // Insert all unique strings and update count if a string is not unique.
+        Map<String,Integer> hshmap = new HashMap<String, Integer>();
+        String[] words = string.toLowerCase()
+                .replaceAll("[^a-z ]", "")
+                .split(" ");
+        for (String str : words)
+        {
+            if (hshmap.keySet().contains(str)) // if already exists then update count.
+                hshmap.put(str, hshmap.get(str) + 1);
+            else
+                hshmap.put(str, 1); // else insert it in the map.
+        }
+        // Traverse the map for the maximum value.
+        String maxStr = "";
+        int maxVal = 0;
+        for (Map.Entry<String,Integer> entry : hshmap.entrySet())
+        {
+            String key = entry.getKey();
+            Integer count = entry.getValue();
+            if (count > maxVal)
+            {
+                maxVal = count;
+                maxStr = key;
+            }
+            // Condition for the tie.
+            else if (count == maxVal){
+                if (key.length() < maxStr.length())
+                    maxStr = key;
+            }
+        }
+        System.out.println("Most frequent word: "+ maxStr);
+        System.out.println("Count: "+ maxVal);
+    }
+
+    }
