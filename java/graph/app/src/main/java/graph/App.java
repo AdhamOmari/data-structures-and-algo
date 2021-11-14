@@ -24,12 +24,15 @@ public class App {
         graph.addEdge("7" , "6");
         graph.addEdge("4" , "5");
 
-        System.out.println(graph);
-        System.out.println(graph.getNodes());
-        System.out.println(graph.getNeighbors("10"));
-        System.out.println(graph.getNeighbors("7"));
-        System.out.println(graph.getNeighbors("1"));
+//        System.out.println(graph);
+//        System.out.println(graph.getNodes());
+//        System.out.println(graph.getNeighbors("10"));
+//        System.out.println(graph.getNeighbors("7"));
+//        System.out.println(graph.getNeighbors("1"));
         System.out.println(graph.size());
+        System.out.println(graph.breadthFirst("5"));
+        System.out.println(graph.breadthFirst("7"));
+        System.out.println(graph.breadthFirst("10"));
 
     }
 }
