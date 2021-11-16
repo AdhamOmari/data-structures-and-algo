@@ -43,3 +43,25 @@ time : O(n)
 pace : O(1) 
 
 
+
+
+
+
+
+## Code Challenge 38
+
+# Depth First Traversal
+<!-- Short summary or background information -->
+write a method to traverse a graph using depth-first
+
+
+
+## Challenge
+<!-- Description of the challenge -->
+[img](./CC38.PNG)
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+time : O(n^2) -
+scape : O(n) -
+

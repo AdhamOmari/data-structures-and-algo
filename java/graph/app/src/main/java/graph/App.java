@@ -44,5 +44,9 @@ public class App {
         System.out.println(graph.businessTrip("4",trip2));
         System.out.println(graph.businessTrip("6",trip3));
 
+        System.out.println(graph.depthFirst("5"));
+        System.out.println(graph.depthFirst("7"));
+        System.out.println(graph.depthFirst("10"));
+
     }
 }
