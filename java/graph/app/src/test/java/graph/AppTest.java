@@ -37,10 +37,49 @@ class AppTest {
         graph.addNode("7");
         graph.addNode("6");
 
-        graph.addEdge("10" , "1");
-        graph.addEdge("1" , "5");
-        graph.addEdge("7" , "6");
-        graph.addEdge("4" , "5");
+        graph.addEdge("10" , "1",1);
+        graph.addEdge("1" , "5",2);
+        graph.addEdge("7" , "6",1);
+        graph.addEdge("4" , "5",1);
         assertEquals("[5, 1, 4, 10]",graph.breadthFirst("5").toString());
+    }
+
+    @Test
+    public void custeTest(){
+        Graph graph = new Graph();
+        graph.addNode("10");
+        graph.addNode("5");
+        graph.addNode("1");
+        graph.addNode("4");
+        graph.addNode("7");
+        graph.addNode("6");
+
+        graph.addEdge("10" , "1",1);
+        graph.addEdge("1" , "5",1);
+        graph.addEdge("7" , "6",1);
+        graph.addEdge("4" , "5",1);
+        String[] trip = {"10" , "1" , "5"};
+        String[] trip2 = {"4" , "5"};
+        String[] trip3 = {"6" , "1" , "5" , "7" , "5"  };
+
+
+        assertEquals("true, $2",graph.businessTrip("5",trip));
+
+    }
+    @Test
+    public void depthFirst(){
+        Graph graph = new Graph();
+        graph.addNode("10");
+        graph.addNode("5");
+        graph.addNode("1");
+        graph.addNode("4");
+        graph.addNode("7");
+        graph.addNode("6");
+
+        graph.addEdge("10" , "1",1);
+        graph.addEdge("1" , "5",1);
+        graph.addEdge("7" , "6",1);
+        graph.addEdge("4" , "5",1);
+        assertEquals("[5, 4, 1, 10]",graph.depthFirst("5").toString());
     }
 }

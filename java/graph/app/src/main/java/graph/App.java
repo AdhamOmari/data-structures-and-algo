@@ -19,20 +19,34 @@ public class App {
         graph.addNode("7");
         graph.addNode("6");
 
-        graph.addEdge("10" , "1");
-        graph.addEdge("1" , "5");
-        graph.addEdge("7" , "6");
-        graph.addEdge("4" , "5");
+        graph.addEdge("10" , "1",1);
+        graph.addEdge("1" , "5",1);
+        graph.addEdge("7" , "6",1);
+        graph.addEdge("4" , "5",1);
 
-//        System.out.println(graph);
+        System.out.println(graph);
 //        System.out.println(graph.getNodes());
 //        System.out.println(graph.getNeighbors("10"));
 //        System.out.println(graph.getNeighbors("7"));
 //        System.out.println(graph.getNeighbors("1"));
-        System.out.println(graph.size());
-        System.out.println(graph.breadthFirst("5"));
-        System.out.println(graph.breadthFirst("7"));
-        System.out.println(graph.breadthFirst("10"));
+//        System.out.println(graph.size());
+//        System.out.println(graph.breadthFirst("5"));
+//        System.out.println(graph.breadthFirst("7"));
+//        System.out.println(graph.breadthFirst("10"));
+
+
+        String[] trip = {"10" , "1" , "5"};
+        String[] trip2 = {"4" , "5"};
+        String[] trip3 = {"6" , "1" , "5" , "7" , "5"  };
+
+
+        System.out.println(graph.businessTrip("5",trip));
+        System.out.println(graph.businessTrip("4",trip2));
+        System.out.println(graph.businessTrip("6",trip3));
+
+        System.out.println(graph.depthFirst("5"));
+        System.out.println(graph.depthFirst("7"));
+        System.out.println(graph.depthFirst("10"));
 
     }
 }
